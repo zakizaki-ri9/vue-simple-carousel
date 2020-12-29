@@ -21,7 +21,8 @@
 
 <script lang="ts">
 import Vue, { PropType } from "vue";
-import CarouselItem, { Item } from "./CarouselItem.vue";
+import CarouselItem from "./CarouselItem.vue";
+import { Item } from "./types";
 
 export default Vue.extend({
   name: "CarouselItemList",

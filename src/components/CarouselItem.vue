@@ -7,13 +7,7 @@
 
 <script lang="ts">
 import Vue, { PropType } from "vue";
-
-export type Item = {
-  src: string;
-  linkLabel?: string;
-  media?: string;
-  alt?: string;
-};
+import { Item } from "./types";
 
 export default Vue.extend({
   name: "CarouselItem",

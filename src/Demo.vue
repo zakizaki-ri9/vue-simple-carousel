@@ -7,7 +7,7 @@
 <script lang="ts">
 import Vue from "vue";
 import CarouselItemList from "@/components/CarouselItemList.vue";
-import { Item } from "@/components/CarouselItem.vue";
+import { Item } from "@/components/types";
 
 export default Vue.extend({
   name: "Demo",

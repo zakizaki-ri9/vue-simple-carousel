@@ -1,5 +1,5 @@
 {
-  "name": "@zakizaki-ri9-practice/vue-simple-carousel",
+  "name": "@zakizaki-ri9/vue-simple-carousel",
   "version": "0.1.0",
   "files": [
     "dist"
@@ -13,6 +13,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zakizaki-ri9/vue-simple-carousel.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "serve": "vue-cli-service serve",

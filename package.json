@@ -2,10 +2,12 @@
   "name": "@zakizaki-ri9/vue-simple-carousel",
   "version": "0.1.2",
   "files": [
-    "dist"
+    "dist/vue-simple-carousel*",
+    "dist/build.d.ts"
   ],
   "main": "dist/vue-simple-carousel.common.js",
   "unpkg": "dist/vue-simple-carousel.umd.min.js",
+  "types": "dist/build.d.ts",
   "license": "MIT",
   "author": {
     "name": "zakizaki-ri9"
@@ -21,7 +23,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib-build": "vue-cli-service build --target lib --name vue-simple-carousel src/build.ts"
+    "lib-build": "vue-cli-service build --target lib --name vue-simple-carousel src/build.ts && tsc"
   },
   "dependencies": {
     "core-js": "^3.6.5",

@@ -12,6 +12,7 @@
     "sourceMap": true,
     "baseUrl": ".",
     "declaration": true,
+    "outDir": "dist",
     "types": [
       "webpack-env"
     ],

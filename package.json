@@ -1,6 +1,6 @@
 {
   "name": "@zakizaki-ri9/vue-simple-carousel",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "files": [
     "dist/vue-simple-carousel*",
     "dist/build.d.ts"

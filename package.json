@@ -12,13 +12,9 @@
   "author": {
     "name": "zakizaki-ri9"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zakizaki-ri9/vue-simple-carousel.git"
-  },
+  "repository": "https://github.com/zakizaki-ri9/vue-simple-carousel.git",
   "publishConfig": {
-    "access": "public",
-    "@zakizaki-ri9:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
